@@ -33,7 +33,7 @@
         "sudo gem install bundler",
         "cd /home/ubuntu/itamae && bundle install --path vendor/bundle",
         "cd /home/ubuntu/itamae && bundle exec itamae local default.rb",
-        "rm -rf /home/ec2-user/itamae"
+        "rm -rf /home/ubuntu/itamae"
       ]
     }
   ]
