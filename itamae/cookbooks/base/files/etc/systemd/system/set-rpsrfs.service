@@ -1,0 +1,11 @@
+[Unit]
+Description=set-rpsrfs
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/misc/bin/
+ExecStart=/opt/misc/bin/set-rpsrfs start
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

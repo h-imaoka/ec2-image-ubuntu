@@ -1,0 +1,32 @@
+apt:
+  packages:
+  - autoconf
+  - automake
+  - awscli
+  - bison
+  - build-essential
+  - dkms
+  - dstat
+  - htop
+  - hugepages
+  - iftop
+  - jq
+  - libdb-dev
+  - libffi-dev
+  - libpng-dev
+  - libreadline-dev
+  - libssl-dev
+  - libtool
+  - libxslt-dev
+  - libyaml-dev
+  - linux-tools-common
+  - mailutils
+  - ncurses-dev
+  - nmap
+  - nscd
+  - numactl
+  - pigz
+  - sysdig
+  - sysstat
+  - whois
+  - zlib1g-dev

@@ -1,0 +1,11 @@
+[Unit]
+Description=disable-thp
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/misc/bin/
+ExecStart=/opt/misc/bin/disable-thp start
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
