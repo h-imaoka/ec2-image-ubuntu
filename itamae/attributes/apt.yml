@@ -7,6 +7,7 @@ apt:
   - build-essential
   - dkms
   - dstat
+  - gdebi
   - htop
   - hugepages
   - iftop
