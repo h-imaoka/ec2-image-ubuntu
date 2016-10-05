@@ -87,3 +87,7 @@ hwclockfile /etc/adjtime
 # real-time clock. Note that it can’t be used along with the 'rtcfile' directive.
 
 rtcsync
+
+leapsecmode slew
+maxslewrate 1000
+smoothtime 400 0.001 leaponly
