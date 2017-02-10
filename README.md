@@ -4,7 +4,7 @@ Packer config to create Ubuntu custom image.
 
 ## Usage
 
-Install Packer if you aren't installed.
+Install Packer if you didn't installed.
 
 ```
 $ export SOURCE_AMI=ami-xxxxxxxx
